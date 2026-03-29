@@ -220,8 +220,7 @@ export default function Home() {
 
             {/* 이름 + 사인 오버레이 */}
             <motion.div
-              className="absolute flex flex-col items-center"
-              style={{ top: "30%", left: "50%", transform: "translateX(-50%)" }}
+              className="absolute inset-0 flex flex-col items-center justify-center"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8, duration: 0.6 }}
