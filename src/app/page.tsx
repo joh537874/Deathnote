@@ -229,7 +229,7 @@ export default function Home() {
               <div
                 style={{
                   ...FONT_STYLE,
-                  fontSize: "clamp(36px, 7vw, 90px)",
+                  fontSize: "7vw",
                   color: "#ff0000",
                   textShadow: "0 0 20px rgba(255,0,0,0.5)",
                 }}
@@ -239,7 +239,7 @@ export default function Home() {
               <div
                 style={{
                   ...FONT_STYLE,
-                  fontSize: "clamp(24px, 4.5vw, 58px)",
+                  fontSize: "4.5vw",
                   color: "#ffffff",
                   textShadow: "0 0 15px rgba(255,255,255,0.4)",
                   marginTop: "1rem",
