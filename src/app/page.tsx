@@ -74,7 +74,7 @@ export default function Home() {
   );
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-black">
+    <div className="relative w-screen h-dvh overflow-hidden bg-black">
       <AnimatePresence mode="wait">
         {/* 1. 인트로 - 흰 화면 */}
         {phase === "intro-white" && (
@@ -158,7 +158,7 @@ export default function Home() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4 }}
           >
-            <div className="flex flex-col items-center gap-8">
+            <div className="flex flex-col items-center gap-4 sm:gap-8">
               {/* 이름 (고정) */}
               <div
                 style={{
@@ -229,7 +229,7 @@ export default function Home() {
               <div
                 style={{
                   ...FONT_STYLE,
-                  fontSize: "7vw",
+                  fontSize: "clamp(36px, 7vw, 90px)",
                   color: "#ff0000",
                   textShadow: "0 0 20px rgba(255,0,0,0.5)",
                 }}
@@ -239,7 +239,7 @@ export default function Home() {
               <div
                 style={{
                   ...FONT_STYLE,
-                  fontSize: "4.5vw",
+                  fontSize: "clamp(24px, 4.5vw, 58px)",
                   color: "#ffffff",
                   textShadow: "0 0 15px rgba(255,255,255,0.4)",
                   marginTop: "1rem",
