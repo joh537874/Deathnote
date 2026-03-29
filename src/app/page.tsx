@@ -90,7 +90,7 @@ export default function Home() {
             <img
               src="/intro-white.png"
               alt="Death Note"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </motion.div>
         )}
@@ -110,7 +110,7 @@ export default function Home() {
             <img
               src="/intro-black.png"
               alt="Death Note"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </motion.div>
         )}
@@ -229,7 +229,7 @@ export default function Home() {
               <div
                 style={{
                   ...FONT_STYLE,
-                  fontSize: "clamp(36px, 7vw, 90px)",
+                  fontSize: "clamp(12px, 7vw, 90px)",
                   color: "#ff0000",
                   textShadow: "0 0 20px rgba(255,0,0,0.5)",
                 }}
@@ -239,7 +239,7 @@ export default function Home() {
               <div
                 style={{
                   ...FONT_STYLE,
-                  fontSize: "clamp(24px, 4.5vw, 58px)",
+                  fontSize: "clamp(12px, 4.5vw, 58px)",
                   color: "#ffffff",
                   textShadow: "0 0 15px rgba(255,255,255,0.4)",
                   marginTop: "1rem",
